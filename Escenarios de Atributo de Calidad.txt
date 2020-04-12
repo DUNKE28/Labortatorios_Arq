@@ -1,0 +1,28 @@
+Escenario General:
+Descripcion:
+Cuando la fuente de poder se corta durante una operacion normal en un cajero automatico, este automaticamente  
+expulsará la tarjeta en operacion
+
+Atributo de calidad: Seguridad
+
+Fuente: Ambiente
+Estimulo: Omision de energia
+Artefacto: Cajero
+Ambiente Operacion normal
+Respuesta: Expulsar tarjeta en operación
+Medicion de la respuesta: 5 - 10 segundos
+
+----------------------------------------------------------------------
+
+Escenario Concreto:
+Descripcíon:
+En un cajero automatico, si un usuario intenta ingresar con una contraseña erronea se notificara el mal ingreso de 
+esta y cancelara la operacion automaticamente.
+
+Atributo de calidad: Confidencialidad
+
+Fuente: Usuario
+Estimulo: Contraseña incorrecta
+Artefactos: Sistema
+Respuesta: Notificar que la clave es incorrecta, cancelar la operacion.
+Medicion de la respuesta: 5 - 10 segundos
